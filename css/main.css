@@ -1,0 +1,8 @@
+section.keyboard div.button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%; }
+  section.keyboard div.button.red {
+    background: red; }
+  section.keyboard div.button.blue {
+    background: blue; }

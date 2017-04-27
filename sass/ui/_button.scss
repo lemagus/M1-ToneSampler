@@ -1,0 +1,23 @@
+@mixin rounded($size) {
+	width: $size;
+	height: $size;
+	border-radius: 50%;
+}
+
+section.keyboard {
+	
+	div.button {
+	
+		@include rounded(70px);
+		
+		&.red {
+			background: red;
+		}
+		
+		&.blue {
+			background: blue;
+		}
+
+	}
+
+}
